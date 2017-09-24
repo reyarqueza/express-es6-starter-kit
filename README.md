@@ -4,7 +4,7 @@
 1) Clone the es6 starter kit.
 
 ```
-git clone git+https://github.com/reyarqueza/express-es6-starter-kit.git
+git clone https://github.com/reyarqueza/express-es6-starter-kit.git
 ```
 
 2) Remove me from the github source and package.json.
