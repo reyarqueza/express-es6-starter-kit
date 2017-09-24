@@ -1,9 +1,13 @@
 # express es6 starter kit
 ### A barebones starter kit to be able to use es6 with express!
 
-There are many es6 starter kits out there with express. Most developers just roll their own from the ground up, however starter kits can help developers save time to get up and running. This es6 express starter kit is barebones. This minimalist starter kit can help you get started with just express and es6, and you add on the rest! 
+There are many es6 starter kits out there with express. Most developers just roll their own from the ground up, however starter kits can help developers save time to get up and running. This minimalist starter kit can help you get started with just express and es6, and you add on the rest! 
 
-1) Clone the es6 starter kit.
+### What makes this starter kit different from others?
+  * It uses babel-watch. (https://github.com/kmagiera/babel-watch)
+  * It uses the babel-preset-env and babel-polyfill. (https://babeljs.io/)
+
+1) Clone the express es6 starter kit.
 
 ```
 git clone https://github.com/reyarqueza/express-es6-starter-kit.git
@@ -27,7 +31,7 @@ rm -rf .git && git init
 npm init
 ```
 
-3) Install it as your own!
+5) Install it as your own!
 
 ```
 npm install
@@ -48,7 +52,3 @@ npm run build
 npm start
 ```
 
-
-### What makes this starter kit different from others?
-  * It uses babel-watch (faster) instead of nodemon+babel-register or nodemon+babel-node
-  * Its set to use latest es6 preset (babel-preset-env) and babel-polyfill
