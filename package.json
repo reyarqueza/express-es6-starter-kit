@@ -1,7 +1,6 @@
 {
   "name": "express-es6-starter-kit",
   "version": "1.0.0",
-  "description": "A barebones starter kit with just express and es6!",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf transpiled",
@@ -9,20 +8,7 @@
     "start": "node transpiled/app.js",
     "dev": "babel-watch source/app.js --presets env"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/reyarqueza/express-es6-starter-kit.git"
-  },
-  "keywords": [
-    "express",
-    "es6"
-  ],
-  "author": "Rey Arqueza",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/reyarqueza/express-es6-starter-kit/issues"
-  },
-  "homepage": "https://github.com/reyarqueza/express-es6-starter-kit#readme",
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-polyfill": "^6.26.0",
