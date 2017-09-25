@@ -24,6 +24,7 @@ mv express-es6-starter-kit [your-project-directory]
 ```
 cd [your-project-directory]
 rm -rf .git && git init
+rm README.md
 ``` 
 
 4) Update package.json with the following command to replace  express-es6-starter-kit with your own project information.
